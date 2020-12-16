@@ -4,40 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazapee - De Guzman</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <a href="/index.html"><img src="/images/lazapee-logo.png" alt="Lazapee Logo" width="200"></a>
-    <ul>
-        <li><a href="/account/account.html">Account</a></li>
-        <li><a href="/cart.html">Cart</a></li>
-    </ul>
-    <ul>
-        <li><a href="/categories/electronic.html">Electronic Devices</a></li>
-        <li><a href="/categories/health-beauty.html">Health & Beauty</a></li>
-        <li><a href="/categories/babies-toys.html">Babies & Toys</a></li>
-        <li><a href="/categories/groceries-pets.html">Groceries & Pets</a></li>
-        <li><a href="/categories/home-living.html">Home & Living</a></li>
-        <li><a href="/categories/fashion.html">Fashion</a></li>
-    </ul>
-    <hr>
 
-    <!-- Content -->
-    <h1>Orange Pills</h1><br>
-    <em>P400</em><br>
-    Qty:<input type="number" min="1"><button>Add to Cart</button>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <img src="/images/products/health-beauty/orange-pills.jpg" alt="">
-    
+<div>
+<!-- Navigation -->
+<header>
+    <div class="logo">
+        <a href="/index.html"><img src="/images/lazapee-logo.png" alt="Lazapee Logo" width="200px"></a>
+    </div>
+    <nav>
+        <ul class="links">
+            <li><a class="link" href="/categories/electronic.html">Electronic Devices</a></li>
+            <li><a class="link" href="/categories/health-beauty.html">Health & Beauty</a></li>
+            <li><a class="link" href="/categories/babies-toys.html">Babies & Toys</a></li>
+            <li><a class="link" href="/categories/groceries-pets.html">Groceries & Pets</a></li>
+            <li><a class="link" href="/categories/home-living.html">Home & Living</a></li>
+            <li><a class="link" href="/categories/fashion.html">Fashion</a></li>
+        </ul>
+    </nav>
+    <div class="settings">
+        <ul class="links">
+            <li><a class="link" href="/cart.html">Cart</a></li>
+            <li><a class="link" href="/account/account.html">Account</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- Content -->
+<main>
+    <div class="content">
+        <h1 class="title">Orange Pills</h1>
+        <div class="list">
+            <div class="items">
+                <div class="square">
+                    <img src="/images/products/health-beauty/orange-pills.jpg" alt="" class="grid landscape">
+                </div>
+                <div>
+                    <em>P400</em>
+                </div>
+                <div class="context">
+                    Qty:<input type="number" min="1"><button>Add to Cart</button>
+                </div>
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>      
     <!-- Footer -->
-    <hr>
-    &copy; Lazapee 2020
-    <ul>
-        <li><strong>Follow Us</strong></li>
-        <li><a href="https://www.facebook.com" target="_blank"><img src="/images/socials/facebook.png" alt="Facebook Logo"></a></li>
-        <li><a href="https://www.instagram.com" target="_blank"><img src="/images/socials/instagram.png" alt="instagram Logo"></a></li>
-        <li><a href="https://www.twitter.com" target="_blank"><img src="/images/socials/twitter.png" alt="Twitter Logo"></a></li>
-        <li><a href="https://www.youtube.com" target="_blank"><img src="/images/socials/youtube.png" alt="Youtube Logo"></a></li>
-    </ul>
+<footer>
+    <div  class="foot-main col-6">
+        <div>
+            <p><strong>Follow Us</strong></p>
+        </div>
+        <div>
+            <ul class="foot-list">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="/images/socials/facebook.png" alt="Facebook Logo"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="/images/socials/instagram.png" alt="instagram Logo"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="/images/socials/twitter.png" alt="Twitter Logo"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="/images/socials/youtube.png" alt="Youtube Logo"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copy col-6">
+        <p>
+            &copy; Lazapee 2020
+        </p>
+    </div>
+</footer>
+</div>
+    
 </body>
 </html>

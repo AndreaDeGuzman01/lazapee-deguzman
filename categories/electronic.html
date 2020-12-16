@@ -4,54 +4,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazapee - De Guzman</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <a href="/index.html"><img src="/images/lazapee-logo.png" alt="Lazapee Logo" width="200"></a>
-    <ul>
-        <li><a href="/account/account.html">Account</a></li>
-        <li><a href="/cart.html">Cart</a></li>
-    </ul>
-    <ul>
-        <li><a href="/categories/electronic.html">Electronic Devices</a></li>
-        <li><a href="/categories/health-beauty.html">Health & Beauty</a></li>
-        <li><a href="/categories/babies-toys.html">Babies & Toys</a></li>
-        <li><a href="/categories/groceries-pets.html">Groceries & Pets</a></li>
-        <li><a href="/categories/home-living.html">Home & Living</a></li>
-        <li><a href="/categories/fashion.html">Fashion</a></li>
-    </ul>
-    <hr>
+    <div>
+        <!-- Navigation -->
+    <header>
+        <div class="logo">
+            <a href="/index.html"><img src="/images/lazapee-logo.png" alt="Lazapee Logo" width="200px"></a>
+        </div>
+        <nav>
+            <ul class="links">
+                <li><a class="link" href="/categories/electronic.html">Electronic Devices</a></li>
+                <li><a class="link" href="/categories/health-beauty.html">Health & Beauty</a></li>
+                <li><a class="link" href="/categories/babies-toys.html">Babies & Toys</a></li>
+                <li><a class="link" href="/categories/groceries-pets.html">Groceries & Pets</a></li>
+                <li><a class="link" href="/categories/home-living.html">Home & Living</a></li>
+                <li><a class="link" href="/categories/fashion.html">Fashion</a></li>
+            </ul>
+        </nav>
+        <div class="settings">
+            <ul class="links">
+                <li><a class="link" href="/cart.html">Cart</a></li>
+                <li><a class="link" href="/account/account.html">Account</a></li>
+            </ul>
+        </div>
+    </header>
 
     <!-- Electronics -->
-    <h1>Electronic Devices</h1>
-
-    <a href="/products/electronics/headphone.html">
-        <img src="/images/products/electronics/headphone.jpg" alt=""><br>
-    </a>
-    <a href="/products/electronics/headphone.html"><strong>Headphone</strong> <em>P2500</em></a>
-    <br><br>
-
-    <a href="/products/electronics/laptop.html">
-        <img src="/images/products/electronics/laptop.jpg" alt=""><br>
-    </a>
-    <a href="/products/electronics/laptop.html"><strong>Laptop</strong> <em>P35000</em></a>
-    <br><br>
-
-    <a href="/products/electronics/phone.html">
-        <img src="/images/products/electronics/phone.jpg" alt=""><br>
-    </a>
-    <a href="/products/electronics/phone.html"><strong>Phone</strong> <em>P15000</em></a>
-    <br>
+<main>
+    <h1 class="title">Electronic Devices</h1>
+    <div class="container">
+        <div class="lists">
+            <div class="list">
+                <div class="items">
+                    <div class="square">
+                        <a href="/products/electronics/headphone.html">
+                            <img src="/images/products/electronics/headphone.jpg" alt="" class="grid landscape">
+                        </a>
+                    </div>
+                    <div class="text">
+                        <a href="/products/electronics/headphone.html"><strong>Headphone</strong> <em>P2500</em></a>
+                    </div>
+                </div>
+            </div>
+                <div class="list">
+                    <div class="items">
+                        <div class="square">
+                            <a href="/products/electronics/laptop.html">
+                                <img src="/images/products/electronics/laptop.jpg" alt="" class="grid">
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="/products/electronics/laptop.html"><strong>Laptop</strong> <em>P35000</em></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="items">
+                        <div class="square">
+                            <a href="/products/electronics/phone.html">
+                                <img src="/images/products/electronics/phone.jpg" alt="" class="grid">
+                            </a>
+                        </div>
+                        <div class="text">
+                            <a href="/products/electronics/phone.html"><strong>Phone</strong> <em>P15000</em></a>
+                        </div>
+                        
+                    </div>
+                </div>
+        </div>
+        
+    </div>
+</main>
 
     <!-- Footer -->
-    <hr>
-    &copy; Lazapee 2020
-    <ul>
-        <li><strong>Follow Us</strong></li>
-        <li><a href="https://www.facebook.com" target="_blank"><img src="/images/socials/facebook.png" alt="Facebook Logo"></a></li>
-        <li><a href="https://www.instagram.com" target="_blank"><img src="/images/socials/instagram.png" alt="instagram Logo"></a></li>
-        <li><a href="https://www.twitter.com" target="_blank"><img src="/images/socials/twitter.png" alt="Twitter Logo"></a></li>
-        <li><a href="https://www.youtube.com" target="_blank"><img src="/images/socials/youtube.png" alt="Youtube Logo"></a></li>
-    </ul>
+<footer>
+    <div  class="foot-main col-6">
+        <div>
+            <p><strong>Follow Us</strong></p>
+        </div>
+        <div>
+            <ul class="foot-list">
+                <li><a href="https://www.facebook.com" target="_blank"><img src="/images/socials/facebook.png" alt="Facebook Logo"></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><img src="/images/socials/instagram.png" alt="instagram Logo"></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><img src="/images/socials/twitter.png" alt="Twitter Logo"></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><img src="/images/socials/youtube.png" alt="Youtube Logo"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copy col-6">
+        <p>
+            &copy; Lazapee 2020
+        </p>
+    </div>
+</footer>
+</div>
 </body>
 </html>
